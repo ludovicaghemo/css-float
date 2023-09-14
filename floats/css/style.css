@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    padding-top: 10px;
+}
+
+.float-left{
+    float: left;
+    /* ora il testo avvolge l'img */
+}
+
+.float-right{
+    float: right;
+    /* ora il testo avvolge l'img */
+}
+
+.clear{
+    clear: both;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
